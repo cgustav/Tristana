@@ -1,5 +1,7 @@
 module.exports = {
-    name: 'ppt',
+    name: 'piedrapapeltijera',
+    cooldown: 3,
+    aliases: ['ppt', 'ppot'],
     args: false,
     description: 'Comando de papel, piedra o tijeras!',
     execute(message, args) {

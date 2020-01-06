@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 module.exports = function (client) {
-    const filePath = process.cwd() + '/commands/'
+    const filePath = process.cwd() + '/api/commands/'
     const commandFiles = fs.readdirSync(filePath).filter(file => file.endsWith('.js'));
 
     for (const file of commandFiles) {

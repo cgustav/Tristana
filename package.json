@@ -12,10 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "crossenv": "0.0.2-security",
     "nodemon": "^2.0.2"
   }
 }
